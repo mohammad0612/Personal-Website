@@ -5,10 +5,11 @@ function toggleMenu() {
   icon.classList.toggle("open")
 }
 
-var typed = new Typed(".text", {
+
+var typed = new Typed("#text", {
   strings: ["ML Research Assistant", "Software Engineer Intern", "Frontend Developer"],
   typeSpeed: 75,
   backSpeed: 75,
   backDelay: 1000,
   loop: true
-})
+}) 
