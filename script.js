@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 var typed = new Typed(".text", {
-  strings: ["Frontend Developer", "ML Research Assistant", "Software Engineer Intern"],
+  strings: ["ML Research Assistant", "Software Engineer Intern", "Frontend Developer"],
   typeSpeed: 75,
   backSpeed: 75,
   backDelay: 1000,
