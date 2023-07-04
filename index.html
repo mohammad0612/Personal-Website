@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <script src="https:unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Mohammad Islam</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href= "#about">About</a></li>
+        <li><a href= "#experience">Experience</a></li>
+        <li><a href= "#projects">Projects</a></li>
+        <li><a href= "#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Mohammad Islam</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href= "#about" onclick="toggleMenu()">About</a></li>
+      <li><a href= "#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href= "#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href= "#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+  </nav>
+  <section id="profile" class="no-style">
+    <div class="section__pic-container">
+      <img src="./assets/post (2).png" alt="Mohammad Islam pfp">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Mohammad Islam</h1>
+      <p class="section__text__p2"><span class="text"></span></p>
+      <p class="section__text__p3">I am a student at Cornell University majoring in computer science 
+        and my favorite hobby is to learn!</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/MohammadIslam Resume.pdf')">
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+      </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/mohammadaislam/" target="_blank">
+        <img src="./assets/linkedin.png" 
+        alt="LinkedIn profile"
+        class="icon" />
+        </a>
+        <a href="https://github.com/mohammad0612" target="_blank">
+        <img src="./assets/github.png" alt="GitHub profile"
+        class="icon"/>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/pic2.jpg" alt="Profile picture"
+        class="about-pic"
+        /> 
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers2">
+          <div class="details-container">
+            <img 
+            src="./assets/education.png"
+            alt="Educaton Icon"
+            class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Sc. Bachelors Degree in Computer Science, Operations Research and Engineering</p>
+            <p class="graduation"> <b>Expected: May 2025</b> </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am very interested in the software development, backend and machine
+            learning areas of computer science.
+          </p>
+          <p><br>Here are some interests that don't involve coding <span 
+            style="color:black">=)</span></p>
+          <ul class="exp-list2">
+          <li>I love <b>weightlifting</b>. The gym is a safe space for my mental 
+            health and it motivates me!</li>
+          <li>I love <b>watching TV shows</b>. I enjoy thrillers and dramas with 
+            some of my favorite being The Sopranos, 
+              Game of Thrones, and Breaking Bad.</li>
+          <li>Watching and playing <b>basketball</b>. My favorite team are the 
+            76ers. Challenge me to a three point contest!</li>
+          <li>Exploring <b>nature</b>. I like to go out for meditating walks, 
+            hiking trails and watch sunrises or sunsets.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
+    onclick="location.href='./#experience'"
+    />
+  </section>
+  <section id="experience" class="experience-section">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-subtitle">Languages</h2>
+          <div class="article-container">
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>Java</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>OCaml</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>HTML/CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>Swift</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>C</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-subtitle">Technologies</h2>
+          <div class="article-container">
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>NumPy</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>PyTorch</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>Pandas</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>React JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>Git/Bash</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>Amazon WS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img 
+              src="./assets/checkmark.png"
+              alt="Experience Icon"
+              class="icon"
+              />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- starts here-->
+      <div class="roles-container">
+        <div class="roles-details-container">
+          <h1 class="roles-h1">Software Engineer Intern</h1> 
+          <p class="roles-p1"> May 2023 - August 2023</p>
+          <p class="roles-p2">Berkeley Pharma Tech</p>
+          <ul class="role-description">
+            <li>Resolved website bugs and successfully integrated Metamask into 
+              the web3 application by utilizing hardhat node.</li>
+            <li>Collaborated with a partner to develop the frontend of an NFT minting 
+              application using React.js, ensuring seamless functionality and user experience.</li>
+            <li id="experience2">Implemented a solution to ensure royalties from NFT trades were 
+              directed to our company, contributing to revenue generation and business growth.</li>
+          </ul>
+          <div class="tech-icons">
+          <img src="./assets/react-removebg-preview.png"
+          alt="react icon"
+          class="icon"
+          />
+          <img src="./assets/html-removebg-preview.png"
+          alt="html icon"
+          class="icon"
+          />
+          <img src="./assets/css-removebg-preview.png"
+          alt="css icon"
+          class="icon"
+          />
+          <img src="./assets/javascript-removebg-preview.png"
+          alt="javascript icon"
+          class="icon"
+          />
+          <img src="./assets/hardhat.png"
+          alt="hardhat icon"
+          class="icon hardhat-icon"
+          />
+          </div>
+        </div>
+
+        <div class="roles-details-container">
+          <h1 class="roles-h1">ML Research Assistant</h1> 
+          <p class="roles-p1"> April 2023 - Present</p>
+          <p class="roles-p2">Cornell Tech</p>
+          <ul class="role-description">
+            <li>Scraped web data for 45+ Apple products, collecting carbon 
+              emission details over the past 5 years, and created a structured dataframe.</li>
+            <li>Enhanced and expanded on the existing architectural carbon model 
+              proposed by Udit Gupta, developing a linear regression model to predict 
+              carbon emissions of different processors and hardware in Apple products.</li>
+            <li>Collaborated with the team to optimize the model's accuracy, 
+              documented the process, and communicated findings for informed decision-making on sustainable product designs.</li>
+          </ul>
+          <div class="tech-icons">
+            <img src="./assets/python-removebg-preview.png"
+            alt="python icon"
+            class="icon"
+            />
+          </div>
+        </div>
+
+        <div class="roles-details-container">
+          <h1 class="roles-h1">Development Intern</h1> 
+          <p class="roles-p1"> June 2022 - August 2022</p>
+          <p class="roles-p2">Novartis Pharmaceuticals</p>
+          <ul class="role-description">
+            <li>Increased transparency of logging qualification assessments and red flags for over 150 vendors by developing Java
+              data structures, decreasing time needed for business continuity decisions</li>
+            <li>Used JavaScript and VBA to implement automated data infrastructure for governance plans that require yearly
+              revisions.</li>
+            <li>Improved data processing speeds by 30% by collaborating with department data scientist to engineer a dashboard
+              of vendor metrics </li>
+          </ul>
+          <div class="tech-icons">
+            <img src="./assets/java-removebg-preview.png"
+            alt="java icon"
+            class="icon"
+            />
+            <img src="./assets/javascript-removebg-preview.png"
+            alt="javascript icon"
+            class="icon"
+            />
+            <img src="./assets/vba-removebg-preview.png"
+            alt="vba icon"
+            class="icon"
+            />
+            <img src="./assets/aqwa_-removebg-preview.png"
+            alt="aqwa icon"
+            class="icon"
+            />
+        </div>
+      </div>
+      <!--ends here -->
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow exp"
+    onclick="location.href='./#experience2'"
+    />
+    <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow exp2"
+    onclick="location.href='./#projects'"
+    />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/breaking.png"
+          alt="Project 1"
+          class="project-img"
+          />
+        </div>
+        <h2 class="experience-subtitle project-title">Breaking The 8.91% Wall</h2>
+        <div class="btn-container github-btn">
+          <button class="btn btn-color-2 project-btn first" 
+          onclick="window.open('https://github.com', '_blank')">
+            Github
+          </button>         
+        </div>
+        <div class="tech-icons">
+          <img src="./assets/mongo.png"
+          alt="mongodb icon"
+          class="icon square"
+          />
+          <img src="./assets/python-removebg-preview.png"
+          alt="python icon"
+          class="icon"
+          />
+        </div>
+      </div>
+
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/J.A.ME..png"
+          alt="Project 1"
+          class="project-img"
+          />
+        </div>
+        <h2 class="experience-subtitle project-title">J.A.M.E. Street Brokerage</h2>
+        <div class="btn-container github-btn">
+          <button class="btn btn-color-2 project-btn" 
+          onclick="window.open('https://github.com/mohammad0612/J.A.M.E.-Street-Brokerage-Simulation', '_blank')">
+            Github
+          </button>         
+        </div>
+        <div class="tech-icons">
+          <img src="./assets/ocaml-removebg-preview.png"
+          alt="ocaml icon"
+          class="icon"
+          />
+          <img src="./assets/polygon.png"
+          alt="polygon.io icon"
+          class="icon square"
+          />
+        </div>
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/algorithm.png"
+          alt="Project 1"
+          class="project-img"
+          />
+        </div>
+        <h2 class="experience-subtitle project-title">74% Profitable Trader Bot</h2>
+        <div class="btn-container github-btn">
+          <button class="btn btn-color-2 project-btn" 
+          onclick="window.open('https://github.com/mohammad0612/CCI-Auto-Trading-Algorithm', '_blank')">
+            Github
+          </button>         
+        </div>
+        <div class="tech-icons">
+          <img src="./assets/tradingview-removebg-preview (1).png"
+          alt="tradingview icon"
+          class="icon tradingview-icon"
+          />
+          <img src="./assets/pinescript-removebg-preview.png"
+          alt="pinescript icon"
+          class="icon"
+          />
+        </div>
+      </div>
+    </div>
+    </div>
+    <img 
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="email icon" 
+        class="icon contact-icon email-icon"/>
+        <p><a href="mailto:mai54@cornell.edu">mai54@cornell.edu</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="linkedin icon" class="icon"/>
+        <p><a href="https://www.linkedin.com/in/mohammadaislam/" target="_blank">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/zoom.png" alt="zoom icon" class="icon"/>
+        <p><a href="https://calendly.com/mohammadaislam" target="_blank">Calendly</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href= "#about">About</a></li>
+          <li><a href= "#experience">Experience</a></li>
+          <li><a href= "#projects">Projects</a></li>
+          <li><a href= "#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Mohammad Islam. All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
