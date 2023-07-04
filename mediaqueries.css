@@ -1,10 +1,6 @@
-@media screen and (min-width: 1401px ) {
-  #projects {
-    margin-top: 40rem;
-  }
-
-  #experience .exp {
-    position: absolute;
+@media screen and (min-width:1401px) {
+  .experience-section {
+    height: 2000px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -15,18 +11,6 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #experience {
-    height: fit-content;
-  }
-  #projects  .btn-container .first {
-    margin-top: 0rem;
-  }
-  .exp {
-    bottom: 55rem
-  }
-  .exp2 {
-    bottom: 8rem;
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -36,60 +20,42 @@
   #hamburger-nav {
     display: flex;
   }
-  #experience .experience-details-container {
-    height: 1650px;
-    margin-top: 0rem;
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
   }
-  .e
-  #projects .experience-details-container {
-    height: 500px;
-  }
-  #profile, .section-container {
+  #profile,
+  .section-container {
     display: block;
-  }
-  #about {
-    margin-top: 10rem;
   }
   .arrow {
     display: none;
   }
-  section, .section-container {
+  section,
+  .section-container {
     height: fit-content;
   }
   section, .no-style {
     margin: 0 5%;
   }
-  .section__text__p3 {
-    font-size: 1rem;
-  }
-  #experience, #projects {
-    margin-top: 10rem;
-  }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 1rem;
+    width: 300px;
+    height: 425px;
+    margin: 0 auto 2rem;
   }
-  .about-pic {
-    width: 275px;
-    height: 350px;
-  }
-  #projects .about-containers {
-    margin-top: 50px
-  }
-  .contact-info-upper-container{
-    flex-wrap: wrap;
+  .about-containers {
+    margin-top: 0;
   }
 }
 
-
 @media screen and (max-width: 600px) {
-  #contact, footer {
+  #contact,
+  footer {
     height: 40vh;
   }
   #profile {
     height: 83vh;
-    margin-bottom: 15rem ;
+    margin-bottom: 0;
   }
   article {
     font-size: 1rem;
@@ -98,16 +64,19 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers, .contact-info-upper-container, .btn-container {
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
     flex-wrap: wrap;
   }
   .contact-info-container {
     margin: 0;
   }
-  .contact-info-container p, .nav-links li a {
+  .contact-info-container p,
+  .nav-links li a {
     font-size: 1rem;
   }
-  .experience-subtitle {
+  .experience-sub-title {
     font-size: 1.25rem;
   }
   .logo {
@@ -120,42 +89,22 @@
   }
   .section__pic-container {
     width: auto;
-    height: 350px;
+    height: 46vw;
     justify-content: center;
   }
-  .section__text__p3 {
+  .section__text__p2 {
     font-size: 1.25rem;
   }
   .title {
     font-size: 2rem;
-    margin-bottom: 250px;
-  }
-  #contact .title {
-    font-size: 2rem;
-    margin-bottom: 0px;
-  }
-  #profile .title {
-    font-size: 2rem;
-    margin-bottom: 0px;
-  }
-  #about .title {
-    font-size: 2rem;
-    margin-bottom: 0px;
-  }
-
-  #experience .title {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  #experience .experience-details-container {
-    height: 3750px;
-    margin-top: 0rem;
   }
   .text-container {
     text-align: justify;
   }
+}
 
-  #projects .title {
-    margin-bottom: 0px;
+@media screen and (min-width:1200px) {
+  .experience-section {
+    height: 1800px
   }
 }

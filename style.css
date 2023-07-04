@@ -169,7 +169,7 @@ section {
 
 .experience-section {
   padding-top: 4vh;
-  height: 1250px;
+  /*height: 1800px;*/
   margin-bottom: 20px;
   box-sizing: border-box;
 }
@@ -460,10 +460,10 @@ article .icon {
 }
 
 .exp {
-  bottom: 25rem
+  bottom: 58rem
 }
 .exp2 {
-  bottom: -20rem;
+  bottom: 5rem;
 }
 /* Projects Section */ 
 
